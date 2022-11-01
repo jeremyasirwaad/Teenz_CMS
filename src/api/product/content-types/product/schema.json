@@ -1,0 +1,112 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Product_name": {
+      "type": "string",
+      "required": true
+    },
+    "Img_1": {
+      "type": "string",
+      "required": true
+    },
+    "Img_2": {
+      "type": "string"
+    },
+    "Img_3": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "Product_id": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Main_Category": {
+      "type": "enumeration",
+      "enum": [
+        "Designer Wear",
+        "Wedding Collection",
+        "Kid's Wear",
+        "Casual Wear",
+        "Accessories",
+        "Handloom Collections"
+      ],
+      "required": true
+    },
+    "Wash_Care": {
+      "type": "enumeration",
+      "enum": [
+        "Dry Clean",
+        "Hand Wash",
+        "Machine Wash"
+      ],
+      "required": true
+    },
+    "Fabric": {
+      "type": "string",
+      "required": true
+    },
+    "Sub_Category": {
+      "type": "enumeration",
+      "enum": [
+        "Lehenga",
+        "Gown",
+        "Coat",
+        "Sherwani",
+        "Pajama",
+        "Kurta",
+        "Pavadai Sattai",
+        "Blouse",
+        "Anarkali",
+        "Salwar",
+        "Frock",
+        "Skirt Blouse",
+        "Shirt",
+        "Pant",
+        "Shirt & Shorts"
+      ],
+      "required": true
+    },
+    "Color": {
+      "type": "enumeration",
+      "enum": [
+        "Blue",
+        "Green",
+        "Red ",
+        "Black",
+        "Teal",
+        "Orange",
+        "Pink",
+        "Gold",
+        "Turquoise",
+        "Cream",
+        "Brown",
+        "Shades of Purple",
+        "Shades of Blue",
+        "Shades of Pink",
+        "Fuchsia",
+        "White",
+        "Yellow"
+      ],
+      "required": true
+    }
+  }
+}
