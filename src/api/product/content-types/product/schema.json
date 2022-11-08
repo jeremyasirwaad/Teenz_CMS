@@ -43,7 +43,6 @@
       "type": "enumeration",
       "enum": [
         "Designer Wear",
-        "Wedding Collection",
         "Kid's Wear",
         "Casual Wear",
         "Accessories",
@@ -81,32 +80,36 @@
         "Skirt Blouse",
         "Shirt",
         "Pant",
-        "Shirt & Shorts"
+        "Shirt & Shorts",
+        "Hoodie",
+        "Dress"
       ],
       "required": true
     },
     "Color": {
       "type": "enumeration",
       "enum": [
-        "Blue",
-        "Green",
-        "Red ",
+        "White",
         "Black",
-        "Teal",
-        "Orange",
-        "Pink",
+        "Silver",
         "Gold",
-        "Turquoise",
-        "Cream",
-        "Brown",
+        "Shades of Red",
         "Shades of Purple",
         "Shades of Blue",
         "Shades of Pink",
-        "Fuchsia",
-        "White",
-        "Yellow"
+        "Shades of Orange",
+        "Shades of Yellow",
+        "Shades of Brown",
+        "Shades of Green"
       ],
       "required": true
+    },
+    "priceinUSD": {
+      "type": "string",
+      "required": true
+    },
+    "Subtitle": {
+      "type": "string"
     }
   }
 }
